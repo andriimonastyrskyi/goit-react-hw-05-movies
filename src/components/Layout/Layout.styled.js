@@ -1,7 +1,7 @@
 const { default: styled } = require('styled-components');
 
 export const Header = styled.header`
-  background-color: #e6fffb;
+  background-color: #eff1f0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -15,6 +15,7 @@ export const Header = styled.header`
 `;
 
 export const Container = styled.div`
+  background-color: #eff1f0;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
